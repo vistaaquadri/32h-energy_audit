@@ -126,7 +126,7 @@ with col2:
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.metric(label="Hospitals Completed", value="0 out of 31", delta=f"{Progress:.1f}% completed")
+    st.metric(label="Hospitals Completed", value="0 out of 32", delta=f"{Progress:.1f}% completed")
 
 
 with col2:
