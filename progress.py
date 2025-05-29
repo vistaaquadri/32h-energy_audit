@@ -129,13 +129,14 @@ with col1:
     st.metric(label="Hospitals Completed", value="0 out of 32", delta=f"{Progress:.1f}% completed")
 
 
+
 with col2:
     st.write("###### Start Date")
     st.info("27th of May, 2025")
 
 with col3:
     st.write("###### Estimated End Date")
-    st.info("31st of July, 2025")
+    st.info("31st of June, 2025")
 
 st.markdown("---")
 
