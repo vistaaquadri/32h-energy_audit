@@ -1,5 +1,8 @@
-plotly
 streamlit
 pandas
 numpy
+plotly
 matplotlib
+st-aggrid
+Pillow
+pydeck
