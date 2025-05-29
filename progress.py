@@ -136,7 +136,7 @@ with col2:
 
 with col3:
     st.write("###### Estimated End Date")
-    st.info("31st of June, 2025")
+    st.info("30th of June, 2025")
 
 st.markdown("---")
 
