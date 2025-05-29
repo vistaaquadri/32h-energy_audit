@@ -1,8 +1,8 @@
-streamlit
-pandas
-numpy
-plotly
-matplotlib
-st-aggrid
+streamlit==1.25.0
+pandas==1.5.3
+numpy==1.23.5
+plotly==5.14.1
+matplotlib==3.6.3
+st-aggrid==0.3.3
 Pillow
 pydeck
