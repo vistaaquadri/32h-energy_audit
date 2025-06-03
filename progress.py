@@ -22,7 +22,7 @@ Geospatial_progress_df = pd.read_csv('data/Geospatial_progress.csv')
 map_df = pd.read_csv('data/map.csv')
 
 # or equivalently
-pre_audit_count = pre_audit_df.shape[0]
+pre_audit_count = pre_audit_df['"What is the name of the hospital?'].nunique()
 network_analysis_count = network_analysis_df.shape[0]
 energy_audit_count = energy_audit_df.shape[0]
 solar_feasibility_count = solar_feasibility_df.shape[0]
