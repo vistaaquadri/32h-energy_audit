@@ -37,7 +37,7 @@ Progress = (pre_audit_count)/180 * 100
 deficit = 100 - Progress
 
 
-Pre_Audit_progress = f"{round((pre_audit_count / 36) * 100)}%"
+Pre_Audit_progress = f"{round((pre_audit_count / 32) * 100)}%"
 Network_Analysis_progress = "0%"
 Energy_Audit_progress = "0%"
 Solar_Feasibility_progress = f"0%"
